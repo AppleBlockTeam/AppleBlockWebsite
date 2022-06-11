@@ -1,5 +1,6 @@
 # AppleBlockWebsit
 我的世界服务器官网开源
+[体验DEMO](https://AppleBlock.cn/)
 
 ## 🛠️ 部署
 部署前需要拥有Nginx等必要依赖
