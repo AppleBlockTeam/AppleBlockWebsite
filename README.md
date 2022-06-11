@@ -11,6 +11,7 @@ unzip AppleBlockWebsit_{{VERSION_OS_ARCH}}.zip
 
 ## ⚙️ 配置
 使用任意文本编辑器打开`index.html`
+
 修改MOTD:
 ``` code
 #找到
