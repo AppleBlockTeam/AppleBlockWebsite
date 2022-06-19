@@ -18,8 +18,9 @@
     <meta name="keywords" content="AppleBlock,AppleBlock服务器,我的世界服务器,我的世界,MineCraft服务器,我的世界中文版服务器,Mc服务器">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheett" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
   </head>
-  <body>
+  <body class="mdui-theme-primary-indigo mdui-theme-accent-blue">
   
   <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
 
@@ -48,17 +49,19 @@
                 </ul>
                </nav> <!-- .site-nav -->
          </div> <!-- .row -->
+         <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
       </div> <!-- .container -->
     </header> <!-- .templateux-navba -->
     <div class="templateux-cover" style="background-image: url(images/slider-1.jpg);">
       <div class="container">
         <div class="row align-items-lg-center">
-          <div class="col-lg-6 text-center order-lg-2">
+          <div class="col-lg-3 text-center order-lg-4">
           </div>
-          <div class="col-lg-6 order-lg-1">
+          <div class="col-lg-4 order-lg-2">
             <h1 class="heading mb-3" data-aos="fade-up">感受自由、多端、稳定的MC服务器体验！</h1>
             <p class="lead mb-5" data-aos="fade-up"  data-aos-delay="100">支持基岩JAVA互通，无严格规则！
-            <p data-aos="fade-up" data-aos-delay="200"><a href="minecraft:?addExternalServer=AppleBlock纯生存|mc.appleblock.cn:19132" onclick="alert('我们将唤起本地的 MinecraftBE 客户端并自动添加服务器信息，若无法唤起请检查浏览器权限或更换浏览器。')" class="btn btn-primary py-3 px-4" >基岩版快速加入</a></p>
+            <p data-aos="fade-up" data-aos-delay="200"><a href="minecraft:?addExternalServer=AppleBlock纯生存|mc.appleblock.cn:19132" onclick="alert('我们将唤起本地的 MinecraftBE 客户端并自动添加服务器信息，若无法唤起请检查浏览器权限或更换浏览器。')" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" >基岩版快速加入</a></p>
+            
             <div class="playercount">
 			<p>现在有 <span class="sip" data-ip="mc.appleblock.cn" data-port="25565">
 			</span> 个人正在服务器内游玩 <span class="ip">mc.appleblock.cn</span></p>
@@ -134,6 +137,19 @@
           </div>
         </a>
       </div>
+    <div class="">
+      <div class="d-flex flex-column flex-sm-row">
+        <a href="#" class="block-thumbnail-1 one-third" style="background-image: url('images/img-5.png'); " data-aos="fade">
+          <div class="block-thumbnail-content">
+            <h2>服务器5人纪念</h2>
+          </div>
+        </a>
+        <a href="#" class="block-thumbnail-1 two-third" style="background-image: url('images/img-6.png'); " data-aos="fade" data-aos-delay="100">
+          <div class="block-thumbnail-content">
+            <h2>端午节纪念</h2>
+          </div>
+        </a>
+      </div>
     </div> <!-- .templateux-section -->
 
     <div class="templateux-section bg-primary" id="templateux-counter-section">
@@ -193,8 +209,7 @@
 
               <div class="col-md-3">
                 <div class="block-footer-widget">
-                  <a href="https://jq.qq.com/?_wv=1027&k=SQi1sZly" class="btn btn-primary mb-3" target="_blank">加入我们的QQ群</a>
-                  <p>联系我们</p>
+                  <a href="https://jq.qq.com/?_wv=1027&k=SQi1sZly" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" target="_blank">加入我们的QQ群</a>
                   <ul class="list-unstyled block-social">
                     <li><a href="https://jq.qq.com/?_wv=1027&k=SQi1sZly" class="p-1" target="_blank"><span class="icon-qq"></span>服主QQ2842755165 或 加入QQ群。</a></li>
                   </ul>
@@ -217,6 +232,7 @@
     </footer> <!-- .templateux-footer -->
     
   </div> <!-- .js-animsition -->
+  <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
