@@ -27,3 +27,6 @@ unzip AppleBlockWebsit_{{VERSION_OS_ARCH}}.zip
 ```
 ## 📖许可证
 项目采用`Apache-2.0 license`协议开源
+
+## 🚗使用外部库
+[MDUI](https://www.mdui.org/)
