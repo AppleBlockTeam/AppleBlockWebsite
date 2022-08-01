@@ -31,4 +31,4 @@ unzip AppleBlockWebsit_{{VERSION_OS_ARCH}}.zip
 ## 🚗使用项目
 [MDUI](https://www.mdui.org/)
 [MOTD](https://www.spigotmc.org/resources/minecraft-website-template-portal-%E2%98%85-responsive-%E2%98%85-easy.48410/)
-[源码](https://www.go176.net/post-2546.html)
+[Webmain](https://www.go176.net/post-2546.html)
