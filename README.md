@@ -1,11 +1,12 @@
 # AppleBlockWebsit
-我的世界服务器官网开源
+AppleBlock我的世界服务器官网开源
 [体验DEMO](https://AppleBlock.cn/)
 
 ## 🛠️ 部署
 部署前需要拥有WEB引擎等必要应用
+(部署独立MOTD需要PHP环境)
 ``` shell
-#解压资源
+#拉取并解压资源
 unzip AppleBlockWebsit_{{VERSION}}.zip
 ```
 
@@ -31,6 +32,10 @@ unzip AppleBlockWebsit_{{VERSION}}.zip
 <!--.<link rel="stylesheet" href="css/hb.css">-->
 #删除注释即可
 ```
+## 🎈 部署独立版MOTD
+在Releases中下载最新版jmotd.zip
+解压并放在index.html的根目录中(./jmotd/index.php)
+
 ## 📖许可证
 项目采用`Apache-2.0 license`协议开源
 
