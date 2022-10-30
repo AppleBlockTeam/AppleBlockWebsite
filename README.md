@@ -34,6 +34,7 @@ unzip AppleBlockWebsit_{{VERSION}}.zip
 ```
 ## 🎈 部署独立版MOTD
 在Releases中下载最新版jmotd.zip
+
 解压并放在index.html的根目录中(./jmotd/index.php)
 
 ## 📖许可证
