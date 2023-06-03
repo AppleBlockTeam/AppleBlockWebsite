@@ -28,8 +28,14 @@ unzip AppleBlockWebsit_{{VERSION}}.zip
 开启黑白默哀:
 ``` code
 #找到
-<!-- .控制黑白默哀效果 -->
-<!--.<link rel="stylesheet" href="css/hb.css">-->
+    <!-- .
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            filter: grayscale(1);
+        }
+    </style>
+    -->
 #删除注释即可
 ```
 ## 🎈 部署独立版MOTD
@@ -40,6 +46,7 @@ unzip AppleBlockWebsit_{{VERSION}}.zip
 ## 📖许可证
 项目采用`Apache-2.0 license`协议开源
 
-## 🚗使用项目
-[MDUI](https://www.mdui.org/)
+## 🚗使用项目/第三方库
 [Webmain](https://www.go176.net/post-2546.html)
+
+Bootstrap/Aos/Hamburgers/Owl Carousel/Icomoon icon/Animate/Animsition/Theme Style/Mdui
