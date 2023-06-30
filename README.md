@@ -1,6 +1,6 @@
 # AppleBlockWebsit
 AppleBlock我的世界服务器官网开源
-[体验DEMO](https://AppleBlock.cn/)
+[体验DEMO](https://mxmilu666.github.io/AppleBlockWebsite/)
 
 ## 🛠️ 部署
 部署前需要拥有WEB引擎等必要应用
