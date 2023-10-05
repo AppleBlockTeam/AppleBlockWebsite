@@ -29,7 +29,6 @@ unzip AppleBlockWebsit_{{VERSION}}.zip
 ``` code
 #找到
     <!-- .
-    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             filter: grayscale(1);
