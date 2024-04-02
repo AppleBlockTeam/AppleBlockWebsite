@@ -2,6 +2,8 @@
 AppleBlock我的世界服务器官网开源
 [体验DEMO](https://mxmilu666.github.io/AppleBlockWebsite/)
 
+#由于本项目是早期作品,代码非常混杂,正在重写...
+
 ## 🛠️ 部署
 部署前需要拥有WEB引擎等必要应用
 (部署独立MOTD需要PHP环境)
